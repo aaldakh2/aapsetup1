@@ -1,0 +1,5 @@
+export AJ_ROOT=$HOME/src/alljoyn/
+export OS=linux
+export CPU=arm
+export LD_LIBRARY_PATH=$AJ_ROOT/alljoyn/build/$OS/$CPU/debug/dist/cpp/lib:$LD_LIBRARY_PATH
+
